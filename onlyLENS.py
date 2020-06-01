@@ -9,7 +9,6 @@ from parameters import *
 def lensing(name): 
     import lens as l
     import source as s
-    import img_scale
 
     print(nx)
     print(n_y)
@@ -89,11 +88,5 @@ fig.add_subplot(122)
 plt.imshow(b,extent=(-xl,xl,-xl,xl))
 plt.title('Plano imagen')
 
-if sour == 'fitsim':
-    if jpg == True:
-        plt.savefig(filename[:-4]+'.png')
-    else:
-        plt.savefig(filename[:-5]+'.png')
 
-else:
-    plt.savefig('lensing.png')
+plt.savefig(str(ltype)+'.png')
