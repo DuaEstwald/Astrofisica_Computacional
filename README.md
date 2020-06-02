@@ -1,4 +1,4 @@
-# Astrofisica_Computacional
+# Astrofisica Computacional. Lentes gravitacionales
 Repositorio de los códigos desarrollados para la asignatura de Astrofísica Computacional.
 
 
